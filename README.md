@@ -14,7 +14,7 @@
 - If you want to, you can tip me in Monero at the address~
 - あなたが望むなら、あなたは私に私のMoneroアドレスでお金を与えることができます~  
 
- ##### XMR: *46v9SVbSk5NPFCRT6BveCucTHMCsk1pW6gQ23zATKzDFXJhR1CUYm5Ge76zoQVGh85bK9LYWhs54fHh6BEzitsVgJswYFJ9*
+ #### XMR: *46v9SVbSk5NPFCRT6BveCucTHMCsk1pW6gQ23zATKzDFXJhR1CUYm5Ge76zoQVGh85bK9LYWhs54fHh6BEzitsVgJswYFJ9*
 
 - Sinon, si vous ne voulez pas me donner de l'argent directement, mais vous voulez quand-même contribuer, vous pouvez miner [ici](./donner.html) Merci beaucoup!
 - Or if you don't want to give me money directly, but still want to contribute, you can mine [here](./donner.html) Thanks a lot!
