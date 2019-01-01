@@ -4,7 +4,10 @@
 - 私はMettaliKです、私はビデオゲームをし、ピアノを弾くのが好きです。
 
 # Mon travail • My work • 私の仕事
-Vous pouvez explorer tous mes projets [ici](https://github.com/MettaliK)
+- Vous pouvez explorer tous mes projets [ici](https://github.com/MettaliK).
+- You can see all projects [here](https://github.com/MettaliK).
+- あなたは私のすべてのプロジェクトを [ここで](https://github.com/MettaliK) 見ることができます。
+
 
 # Merci. • Thank you. • ありがとうございます。
 - Si vous le voulez, vous pouvez me faire un don en Monero à l'adresse~
