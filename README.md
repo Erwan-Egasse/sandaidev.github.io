@@ -1,11 +1,11 @@
 # Salam. • Hi. • こんにちわ。
 - Je suis MettaliK, j'aime programmer, jouer et faire du piano.
-- I am MettaliK, i like to play video games and piano
+- I am MettaliK, i like to play video games and piano.
 - 私はMettaliKです、私はビデオゲームをし、ピアノを弾くのが好きです。
 
 # Mon travail. • My work. • 私の仕事。
 - Vous pouvez explorer tous mes projets [ici](https://github.com/MettaliK).
-- You can see all projects [here](https://github.com/MettaliK).
+- You can see all of my projects [here](https://github.com/MettaliK).
 - あなたは私のすべてのプロジェクトを [ここで](https://github.com/MettaliK) 見ることができます。
 
 
