@@ -4,8 +4,11 @@
 # Mon travail
 - Vous pouvez explorer tous mes projets [ici](https://github.com/MettaliK).
 
+### Project:Rush
+- Un jeu, la suite du Rush 2 : [ici](./TIME.html)
+
 # Merci!
-- Si *vous le voulez*, vous pouvez me faire un don en Monero à l'adresse:
+- Si **vous voulez** me soutenir dans mon travail, vous pouvez me faire un don en Monero à l'adresse:
 
 ***XMR: 46v9SVbSk5NPFCRT6BveCucTHMCsk1pW6gQ23zATKzDFXJhR1CUYm5Ge76zoQVGh85bK9LYWhs54fHh6BEzitsVgJswYFJ9***
 
