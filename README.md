@@ -2,14 +2,14 @@
 - Je suis MettaliK, j'aime programmer, jouer et faire du piano.
 
 # Mon travail
-- Vous pouvez explorer tous mes projets [ici](https://github.com/MettaliK).
+- tu peux explorer tous mes projets [ici](https://github.com/MettaliK).
 
-### Project:Rush
-- Un jeu, la suite du Rush 2 : [ici](./TIME.html)
+## Project:Rush
+### Si tu aimes la cryptographie, ces jeux te plaîront :
+- Le Rush 3 : [ici](./TIME.html)
+- Le Rush 4 : **[En développement]**
 
 # Merci!
-- Si **vous voulez** me soutenir dans mon travail, vous pouvez me faire un don en Monero à l'adresse:
+- Si **tu veux** me soutenir dans mon travail, tu peux me faire un don en Monero à l'adresse:
 
 ***XMR: 46v9SVbSk5NPFCRT6BveCucTHMCsk1pW6gQ23zATKzDFXJhR1CUYm5Ge76zoQVGh85bK9LYWhs54fHh6BEzitsVgJswYFJ9***
-
-- Sinon, si vous ne voulez pas donner de l'argent directement, mais voulez quand-même contribuer, vous pouvez miner [ici](./donner.html) Merci beaucoup!
