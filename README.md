@@ -7,7 +7,7 @@
 ## Project:Rush
 ### Si tu aimes la cryptographie, ces jeux te plaîront :
 - Le Rush 3 : [ici](./TIME.html)
-- Le Rush 4 : **[En développement]**
+- Le Rush 4 : [ici](./rush4.html)
 
 # Merci!
 - Si **tu veux** me soutenir dans mon travail, tu peux me faire un don en Monero à l'adresse:
