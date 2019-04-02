@@ -1,10 +1,10 @@
-# Salam
+# Bonsoir
 - Je suis Sandai, j'aime programmer, jouer et faire du piano.
 
 # Mon travail
 - tu peux explorer tous mes projets [ici](https://github.com/MettaliK).
 
-## Project:Rush
+## les Rush
 ### Si tu aimes la cryptographie, ces jeux te plaîront :
 - Le Rush 3 : [ici](Pages/Rush-3.md)
 - Le Rush 4 : [ici](Pages/Rush-4.md)
