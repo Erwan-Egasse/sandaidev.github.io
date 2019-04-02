@@ -7,3 +7,9 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+footer:
+  links:
+    - label: "(Home)"
+      # icon: "fab fa-fw fa-twitter-square"
+      url: "https://mettalik.github.io"
