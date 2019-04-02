@@ -7,5 +7,6 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - INDEX.md
+  - index.md
   - Pages/*
+  - Misc/*
