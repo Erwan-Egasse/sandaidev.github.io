@@ -1,5 +1,5 @@
 # Hi !
-- I'm Sandai, I like to program and play piano.
+- I am Sandai, I like to program, play video games and piano.
 
 # My work
 - All my projects are listed [here](https://github.com/MettaliK/).
