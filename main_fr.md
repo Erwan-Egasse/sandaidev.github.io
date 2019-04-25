@@ -2,7 +2,7 @@
 - Je suis Sandai, j'aime programmer, jouer et faire du piano.
 
 # Mon travail
-- tu peux explorer tous mes projets [ici](https://github.com/MettaliK).
+- tu peux explorer tous mes projets [ici](https://github.com/Sandaidev).
 
 # Merci !
 
