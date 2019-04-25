@@ -7,5 +7,6 @@
 -----------------------------
 
 ## Tale Of Delamar
-- The new game by Sandai. command line as always.
+- The 5th game. command line as always.
 - Check it out [here](./taleofdelamar/game)
+- The source code can be found [here](https://github.com/Sandaidev/TaleOfDelamar)
