@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Sandai
-description: Home Sweet Home
+description: There is no place like 127.0.0.1
 
 plugins:
   - jekyll-relative-links
