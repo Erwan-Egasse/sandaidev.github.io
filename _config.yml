@@ -4,6 +4,8 @@ description: There is no place like 127.0.0.1
 
 plugins:
   - jekyll-relative-links
+  - jekyll-sitemap
+  
 relative_links:
   enabled: true
   collections: true
