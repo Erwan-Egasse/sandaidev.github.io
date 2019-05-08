@@ -1,10 +1,11 @@
 theme: jekyll-theme-cayman
 title: Sandai
-description: There is no place like 127.0.0.1
+description: Home Sweet Home
 
 plugins:
   - jekyll-relative-links
   - jekyll-sitemap
+  - jekyll-seo-tag
   
 relative_links:
   enabled: true
