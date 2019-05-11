@@ -1,4 +1,4 @@
-# Please select your language
+## Please select your language
 
 - [**Español**](./main_sp)
 - [**English**](./main_en)
