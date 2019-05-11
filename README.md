@@ -7,6 +7,8 @@
 -----------------------------
 
 ## Tale Of Delamar
-- The 5th game. command line as always.
-- Check it out [here](./taleofdelamar/game)
+- [My game](./taleofdelamar/game). command line as always.
 - The source code can be found [here](https://github.com/Sandaidev/TaleOfDelamar)
+
+## Greetings From Japan
+- My life project, available [here](https://greetingsfromjapan.github.io)
