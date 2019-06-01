@@ -24,4 +24,4 @@ Aunque si el donación no es alta, esta me motiva porque sé que la gente sigue 
 
 -----------
 
-*esta página ha sido traducida por Raphaël*
+*esta página ha traducido por Raphaël*
