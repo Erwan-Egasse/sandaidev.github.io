@@ -5,4 +5,4 @@
 - Puedes explorar todos [mis proyectos](https://github.com/Sandaidev).
 
 # ¡Gracias!
-- Si **te gustaría** ayudarme, puedes darme [un donación](./Pages/thankyou/es).
+- Si **te gustaría** ayudarme, puedes darme [un donación](./Pages/thankyou/cointable).
