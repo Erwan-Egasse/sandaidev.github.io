@@ -6,4 +6,4 @@
 
 # Merci !
 
-- Si **tu veux** me soutenir dans mon travail, tu peux me faire un don [ici](./Pages/thankyou/fr).
+- Si **tu veux** me soutenir dans mon travail, tu peux me faire un don [ici](./Pages/thankyou/cointable).
