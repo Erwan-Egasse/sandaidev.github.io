@@ -4,7 +4,7 @@
 | Litecoin (LTC) | `LebXGVbDSqVhGkAxtXfehiigdRFWjiKudK`         |
 | Dash (DASH)    | `XkRWM9eP9GvNbzJg1Q7ftNZhv4ntE1icmt`         |
 | Ethereum (ETH) | `0xAB3b2b07c028C381A2975c51B862D4d252AF1c27` |
-| Zcash (ZEC)    | `t1fa7ybKMC7eivywerwLro3VcGu7Hw1hxe7`        |
+| ZCash (ZEC)    | `t1fa7ybKMC7eivywerwLro3VcGu7Hw1hxe7`        |
 
 ---------------------------------------------------------------
 
