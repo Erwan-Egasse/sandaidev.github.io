@@ -1,11 +1,11 @@
-| Coin name      | Address                                    |
-|----------------|--------------------------------------------|
-| Bitcoin (BTC)  | 17ciJxziFKnTCwTji2We5Mi9DwthjXZdAu         |
-| Litecoin (LTC) | LWXVcD4oPt3AYaDbrZGWqypcLjVFtbapvk         |
-| Dash (DASH)    | Xb5zuuEuagaezMcFP6DQ5jrGU8XrB9d3LS         |
-| Monero (XMR)   | [Not available]                            |
-| Ethereum (ETH) | 0x2D406E3fa662689C364d37CfdaFcfEe5BBFD5c7C |
-| Zcash (ZEC)    | t1K7zEtMSg6EnfMT4hF4GbwYazUpej6kczJ        |
+| Coin name      | Address                                      |
+|----------------|----------------------------------------------|
+| Bitcoin (BTC)  | `[Not available]`         |
+| Litecoin (LTC) | `[Not available]`         |
+| Dash (DASH)    | `[Not available]`         |
+| Monero (XMR)   | `[Not available]`                            |
+| Ethereum (ETH) | `[Not available]` |
+| Zcash (ZEC)    | `[Not available]`        |
 
 ---------------------------------------------------------------
 
