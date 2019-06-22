@@ -1,3 +1,7 @@
+---
+title: Sandai
+---
+
 | Coin name      | Address                                      |
 |----------------|----------------------------------------------|
 | Bitcoin (BTC)  | `1MjbL4BHwY5hQxdqdes4KzMYkretC3o8ut`         |
