@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: FT
 ---
 
 # "Memories are permanent"
