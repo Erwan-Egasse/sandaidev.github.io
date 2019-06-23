@@ -1,6 +1,6 @@
 ---
 title: Sandai
-description: A donation is always accepted, but never requested.
+description: A donation is always accepted, however never requested.
 ---
 
 | Coin name      | Address                                      |
