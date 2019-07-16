@@ -1,5 +1,5 @@
 ---
-title: Sandaidev
+title: Sandai
 ---
 
 # Projects
