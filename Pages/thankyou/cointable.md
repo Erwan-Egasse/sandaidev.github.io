@@ -3,7 +3,6 @@ title: Thank you!
 description: "A donation is always accepted, however never requested."
 ---
 
-<p align="center">
 | Coin name      | Address                                      |
 |----------------|----------------------------------------------|
 | Bitcoin (BTC)  | `1MjbL4BHwY5hQxdqdes4KzMYkretC3o8ut`         |
@@ -13,4 +12,3 @@ description: "A donation is always accepted, however never requested."
 | ZCash (ZEC)    | `t1fa7ybKMC7eivywerwLro3VcGu7Hw1hxe7`        |
 
 ---------------------------------------------------------------
-</p>
