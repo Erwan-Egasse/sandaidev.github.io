@@ -1,8 +1,3 @@
----
-title: Sandai | Erwan
-description: Home Sweet Home
----
-
 # Mes projets
 
 - [*Project-U*](./Project-U/)
