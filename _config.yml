@@ -3,7 +3,7 @@ title: Sandaidev
 description: Home Sweet Home
 
 
-baseurl: https://sandaidev.github.io
+site.baseurl: https://sandaidev.github.io
 
 plugins:
   - jekyll-relative-links
