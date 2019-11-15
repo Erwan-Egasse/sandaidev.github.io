@@ -13,5 +13,5 @@ title: Erwan / Sandai
 - [*Profil Github*](https://github.com/Sandaidev)
 
 # Dons
-- Si *tu veux* me supporter dans mes projets, j'ai une [page de dons ici!](/Pages/thankyou/cointable) Merci beaucoup!
+- Si *tu veux* me supporter dans mes projets, j'ai une [page de dons ici!](/dons/) Merci beaucoup!
 
