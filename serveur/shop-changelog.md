@@ -1,5 +1,6 @@
 ---
 title: Re-balancement de l'économie du serveur!
+description: Le serveur Minecraft
 ---
 
 ## Pourquoi tu fais ça?
