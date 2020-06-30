@@ -1,3 +1,9 @@
+/*
+ This CSS is half broken and it's a miracle if things work as intented,
+ A full rewrite would be welcome.
+*/
+
+
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 * {
   transition: all 0.3s cubic-bezier(0, 0, 0, 1);
@@ -159,7 +165,7 @@ p.small {
   overflow: hidden;
   border: 1px solid #f2f8f9;
 }
-.card2:hover {
+.card4:hover {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
@@ -167,7 +173,7 @@ p.small {
   border: 1px solid #cccccc;
   background-color: white;
 }
-.card2:before {
+.card4:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -186,7 +192,7 @@ p.small {
   transition: transform 0.15s ease-out;
   transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
 }
-.card2:hover:before {
+.card4:hover:before {
   -webkit-transform: scale(2.15);
           transform: scale(2.15);
 }
