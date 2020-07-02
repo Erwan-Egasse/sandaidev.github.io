@@ -1,15 +1,15 @@
-/*
- This CSS is half broken and it's a miracle if things work as intented,
- A full rewrite would be welcome.
-*/
-
-
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+:root {
+  --p-color: #666666;
+  --h3-color: #262626;
+}
+
 * {
   transition: all 0.3s cubic-bezier(0, 0, 0, 1);
 }
-html,
-body {
+
+html, body {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
 }
@@ -22,24 +22,17 @@ h1 {
 .container {
   width: 100%;
   height: 55%;
-  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .container_slim_top {
-  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-      
+  align-items: center;
+  justify-content: center;
   margin-top: 10%;
 }
 
@@ -47,13 +40,10 @@ h1 {
   width: 100%;
   margin-top: 2%;
   margin-bottom:2%;
-  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 p.centered {
@@ -62,7 +52,7 @@ p.centered {
 }
 
 h3 {
-  color: #262626;
+  color: var(--h3-color);
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
@@ -73,107 +63,41 @@ p {
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  color: #666666;
+  color: var(--p-color);
 }
+
 p.small {
   font-size: 14px;
 }
 
 .go-corner {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   width: 32px;
   height: 32px;
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: #00838d;
-  border-radius: 0 4px 0 32px;
 }
 
 .go-arrow {
   margin-top: -4px;
   margin-right: -4px;
   color: white;
-  font-family: courier, sans;
+  font-family: courier, sans-serif;
 }
 
-.card1 {
-
-  display: block;
-  position: relative;
-  max-width: 262px;
-  background-color: #f2f8f9;
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
-}
-.card1:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -16px;
-  right: -16px;
-  background: #00838d;
-  height: 32px;
-  width: 32px;
-  border-radius: 32px;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transition: -webkit-transform 0.25s ease-out;
-  transition: -webkit-transform 0.25s ease-out;
-  transition: transform 0.25s ease-out;
-  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
-}
-.card1:hover:before {
-  -webkit-transform: scale(21);
-          transform: scale(21);
-}
-
-.card1:hover p {
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  color: rgba(255, 255, 255, 0.8);
-}
-.card1:hover h3 {
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  color: #ffffff;
-}
-
-.card2 {
-  display: block;
-  top: 0px;
-  position: relative;
-  max-width: 262px;
-  background-color: #f2f8f9;
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
-  border: 1px solid #f2f8f9;
-}
-.card4:hover {
-  -webkit-transition: all 0.2s ease-out;
+.card:hover {
   transition: all 0.2s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -4px;
   border: 1px solid #cccccc;
   background-color: white;
 }
-.card4:before {
+
+.card:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -183,53 +107,16 @@ p.small {
   height: 32px;
   width: 32px;
   border-radius: 32px;
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transition: -webkit-transform 0.15s ease-out;
-  transition: -webkit-transform 0.15s ease-out;
+  transform: scale(2);
+  transform-origin: 50% 50%;
   transition: transform 0.15s ease-out;
-  transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
-}
-.card4:hover:before {
-  -webkit-transform: scale(2.15);
-          transform: scale(2.15);
 }
 
-.card3 {
-  display: block;
-  top: 0px;
-  position: relative;
-  max-width: 262px;
-  background-color: #f2f8f9;
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  overflow: hidden;
-  border: 1px solid #f2f8f9;
-}
-.card3 .go-corner {
-  opacity: 0.7;
-}
-.card3:hover {
-  border: 1px solid #00838d;
-  box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.664);
-  z-index: 500;
+.card:hover:before {
+  transform: scale(2.15);
 }
 
-.card3:hover p {
-  color: #00838d;
-}
-.card3:hover .go-corner {
-  -webkit-transition: opactiy 0.3s linear;
-  transition: opactiy 0.3s linear;
-  opacity: 1;
-}
-
-.card4 {
-  
+.card {  
   display: block;
   top: 0px;
   position: relative;
@@ -242,36 +129,38 @@ p.small {
   overflow: hidden;
   border: 1px solid #cccccc;
 }
-.card4 .go-corner {
+
+.card .go-corner {
   background-color: #00838d;
   height: 100%;
   width: 16px;
   padding-right: 9px;
   border-radius: 0;
-  -webkit-transform: skew(6deg);
-          transform: skew(6deg);
+  transform: skew(6deg);
   margin-right: -36px;
-  -webkit-box-align: start;
-          align-items: start;
+  align-items: start;
   background-image: linear-gradient(-45deg, #8F479A 1%, #DC2A74 100%);
 }
-.card4 .go-arrow {
-  -webkit-transform: skew(-6deg);
-          transform: skew(-6deg);
+
+.card .go-arrow {
+  transform: skew(-6deg);
   margin-left: -2px;
   margin-top: 9px;
   opacity: 0;
 }
-.card4:hover {
+
+.card:hover {
   border: 1px solid #CD3D73;
 }
-.card4 h3 {
+
+.card h3 {
   margin-top: 8px;
 }
 
-.card4:hover .go-corner {
+.card:hover .go-corner {
   margin-right: -12px;
 }
-.card4:hover .go-arrow {
+
+.card:hover .go-arrow {
   opacity: 1;
 }
