@@ -1,20 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 
-:root {
-  --p-color: #666666;
-  --h3-color: #262626;
+/* Light mode variables */
+@media (prefers-color-scheme: light) {
+  :root {
+    --p-color: #666666;
+    --h1-color: #262626;
+    --h3-color: #262626;
+    --card-background: white;
+    --page-background: white;
+    --card-hover-shadow-color: rgba(34, 34, 34, 0.288);
+  }
+}
+
+/* Dark mode variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --p-color: #dadada;
+    --h1-color: white;
+    --h3-color: white;
+    --card-background: #242424;
+    --page-background: #242424;
+    --card-hover-shadow-color: rgba(0, 0, 0, 0.664);
+  }
 }
 
 * {
   transition: all 0.3s cubic-bezier(0, 0, 0, 1);
 }
 
-html, body {
+body {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
+  background-color: var(--page-background);
 }
 
 h1 {
+  color: var(--h1-color);
   font-size: 40px;
   text-align: center;
 }
@@ -91,10 +112,10 @@ p.small {
 
 .card:hover {
   transition: all 0.2s ease-out;
-  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  box-shadow: 0px 4px 8px var(--card-hover-shadow-color);
   top: -4px;
   border: 1px solid #cccccc;
-  background-color: white;
+  background-color: var(--card-background);
 }
 
 .card:before {
@@ -103,7 +124,6 @@ p.small {
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #00838d;
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -121,7 +141,7 @@ p.small {
   top: 0px;
   position: relative;
   max-width: 262px;
-  background-color: #ffffff;
+  background-color: var(--card-background);
   border-radius: 4px;
   padding: 32px 24px;
   margin: 12px;
@@ -131,7 +151,6 @@ p.small {
 }
 
 .card .go-corner {
-  background-color: #00838d;
   height: 100%;
   width: 16px;
   padding-right: 9px;
