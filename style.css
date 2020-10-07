@@ -1,17 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 
-/* Light mode variables
-@media (prefers-color-scheme: light) {
-  :root {
-    --p-color: #666666;
-    --h1-color: #262626;
-    --h3-color: #262626;
-    --card-background: white;
-    --page-background: white;
-    --card-hover-shadow-color: rgba(34, 34, 34, 0.288);
-  }
-}*/
-
 /* Light mode variables, mirrors dark ones as that is the new default */
 @media (prefers-color-scheme: dark) {
   :root {
