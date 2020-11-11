@@ -1,6 +1,6 @@
 ---
 title: Donations
-description: These are never encouraged but very appreciated!
+description: These are never encouraged but always appreciated!
 ---
 
 | **Coin name**                   | **Address**                                                                                     | **QR Code** |
