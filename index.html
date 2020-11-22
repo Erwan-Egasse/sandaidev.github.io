@@ -1,23 +1,271 @@
 <!DOCTYPE html>
 
-<style>
-  @font-face {
-    font-family: munro;
-    src: url('./assets/fonts/munro.ttf');
-  }
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sandaidev: Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./lib/boostwatch-cyborg-4.5.3/bootstrap.css">
+    <link rel="stylesheet" href="./lib/boostwatch-cyborg-4.5.3/custom.min.css">
+    <link rel="stylesheet" href="./lib/fontawesome-free-5.15.1-web/css/all.css">
+</head>
+<body onload="genQuote()">
+<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand">Sandaidev</a>
 
-  p {
-      font-family: munro;
-      text-align: center;
-      margin-top: 22%;
-      font-size: 32px;
-  }
-</style>
+        <div class="navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="https://sandaidev.github.io/ChillerTech/" id="chillertech">ChillerTech</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-<p>
-&lt;!-- The website is being rewritten. <br>
-    The new design will be more responsive, using the bootstrap library. <br>
-    All while trying to use as little cookies as possible, zero is the goal. <br>
-    I don't really know when it will be finished, though you can check the progress over <a href="https://github.com/Sandaidev/sandaidev.github.io">on Github</a>.<br>
-    Cheers. - Sandai --&gt;
-</p>
+<!-- Indicator
+================================================== -->
+<div class="container">
+
+    <div class="col-lg-12">
+        <div class="bs-component">
+            <div class="alert alert-danger">
+                <strong>Warning!</strong> The website has been re-written with Bootstrap, here be dragons! <i class="fas fa-dragon"></i>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-6">
+                <h1>Hi there.</h1>
+                <p class="lead">I'm Sandai. I like jazz, streaming, metal and servers.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buttons
+    ================================================== -->
+    <div class="bs-docs-section">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 id="buttons">Quick links</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-auto">
+
+                <p class="bs-component">
+                    <a href="https://www.deezer.com/profile/2884440744"><button type="button" class="btn btn-outline-primary">
+                        <i class="fab fa-deezer"></i>
+                        Deezer</button></a>
+
+                    <a href="https://twitter.com/Sandai_dev"><button type="button" class="btn btn-outline-primary">
+                        <i class="fab fa-twitter"></i>
+                        Sandai</button></a>
+
+                    <a href="https://twitter.com/FmSandai"><button type="button" class="btn btn-outline-primary">
+                        <i class="fab fa-twitter"></i>
+                        Sandai.FM</button></a>
+
+                    <br>
+
+                    <a href="#donate"><button type="button" class="btn btn-outline-primary">
+                        <i class="fas fa-donate"></i>
+                        Donate</button></a>
+
+                    <a href="https://www.twitch.tv/sandaicast"><button type="button" class="btn btn-outline-primary">
+                        <i class="fab fa-twitch"></i>
+                        Twitch</button></a>
+
+                    <a href="https://github.com/Sandaidev"><button type="button" class="btn btn-outline-primary">
+                        <i class="fab fa-github"></i>
+                        Github</button></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bs-docs-section">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="bs-component">
+
+                    <h3>
+                        Skills
+                        <small class="text-muted">/ programming</small>
+                    </h3>
+
+                    <div class="col-lg-12">
+                        <h5 id="progress-animated-1">PHP <small class="text-muted">/ 7</small></h5>
+                        <div class="bs-component">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"><strong>45%</strong></div>
+                            </div>
+                        </div>
+                        <h5 id="progress-animated-2">C++ <small class="text-muted">/ 17</small></h5>
+                        <div class="bs-component">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"><strong>45%</strong></div>
+                            </div>
+                        </div>
+                        <h5 id="progress-animated-3">Python <small class="text-muted">/ 3</small></h5>
+                        <div class="bs-component">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><strong>60%</strong></div>
+                            </div>
+                        </div>
+                        <h5 id="progress-animated-4">HTML <small class="text-muted">/ 5</small></h5>
+                        <div class="bs-component">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><strong>60%</strong></div>
+                            </div>
+                        </div>
+                        <h5 id="progress-animated-5">CSS <small class="text-muted">/ 3</small></h5>
+                        <div class="bs-component">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><strong>40%</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tables
+    ================================================== -->
+    <div class="bs-docs-section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h3 id="donate">Donate
+                        <small class="text-muted">/ cryptocurrencies</small>
+                    </h3>
+                </div>
+
+                <div class="bs-component">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th scope="col">Code</th>
+                            <th scope="col">Coin name</th>
+                            <th scope="col">Address</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <th scope="row">BTC</th>
+                            <th scope="row">Bitcoin</td>
+                            <td>13UxM2qNn1ie4Zsg4sf14XHRDam1k57Naw</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">ETH</th>
+                            <th scope="row">Ethereum</td>
+                            <td>0x9bB640288895828A1F4506616fA0aE54713B51E7</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">XMR</th>
+                            <th scope="row">Monero</td>
+                            <td>4AnpPh8zwnLe6Rfov9P34rJENQdvX3z2JRY4q5aEKRtEQ2ESwwbkAdeLAhAv9eqmEXQgU4YxXjnAYZ4kX5HDibND69R4uQK</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">DASH</th>
+                            <th scope="row">Dash</td>
+                            <td>XtqC6FLWjBpE8ctA7AnbqYkNVqBXYvVu4h</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">LTC</th>
+                            <th scope="row">Litecoin</td>
+                            <td>LVGpzsapfFXTo6YUdok4xTssUtDNBMsdsM</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">ZEC</th>
+                            <th scope="row">ZCash</td>
+                            <td>t1UGp5TLnfUrwwt82M89DMfDjAgMQca1VBJ</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">USDC</th>
+                            <th scope="row">USDCoin</td>
+                            <td>0x9bB640288895828A1F4506616fA0aE54713B51E7</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">XRP</th>
+                            <th scope="row">Ripple</td>
+                            <td>rJcxc2wCArJFtRnCNVCqZhYpzYGJHAaH5e</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div><!-- /example -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Blockquotes -->
+    <div class="row">
+        <!-- empty space to fill first and second slots -->
+        <div class="col-lg-4">
+
+        </div>
+        <div class="col-lg-4">
+
+        </div>
+
+        <!-- Custom random quotes -->
+        <div class="col-lg-4">
+            <div class="bs-component">
+                <blockquote class="blockquote text-right">
+                    <script>
+
+                        var quotes = [
+                            ["'Why, Sir, you find no man, at all intellectual, who is willing to leave London. No, Sir, when a man is tired of London, he is tired of life; for there is in London all that life can afford.'", "Samuel Johnson"],
+                            ["Jazz attracted me because in it I found a formal perfection and instrumental precision that I admire in classical music, but which popular music doesn't have.", "Django Reinhardt"],
+                            ["Talk is cheap. Show me the code.", "Linus Torvalds"]
+                        ]
+
+                        function genQuote() {
+                            // Generate random number
+                            var random_number = Math.floor(Math.random() * (quotes.length));
+                            document.getElementById("quote_content").innerHTML = quotes[random_number][0];
+                            document.getElementById("quote_author").innerHTML = quotes[random_number][1];
+                        }
+                    </script>
+                    <p class="mb-0" id="quote_content"></p>
+                    <footer class="blockquote-footer"><i id="quote_author"></i></footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-unstyled">
+                    <li class="float-lg-right"><a href="#top">Back to top</a></li>
+                </ul>
+                <p>Source code and credits on <a href="https://github.com/Sandaidev/sandaidev.github.io">Github</a>.</p>
+                <p>This website doesn't use cookies.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="../_vendor/jquery/dist/jquery.min.js"></script>
+<script src="../_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../_assets/js/custom.js"></script>
+</body>
+</html>
