@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="./lib/boostwatch-cyborg-4.5.3/bootstrap.css">
     <link rel="stylesheet" href="./lib/boostwatch-cyborg-4.5.3/custom.min.css">
     <link rel="stylesheet" href="./lib/fontawesome-free-5.15.1-web/css/all.css">
+
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
 </head>
 <body onload="genQuote()">
+
 <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand">Sandaidev</a>
@@ -29,7 +38,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-7 col-sm-6">
                 <h1>Hi there.</h1>
-                <p class="lead">I'm Sandai. I like jazz, streaming, metal and servers.</p>
+                <p class="lead">I'm Erwan. I like jazz, streaming, metal and servers.</p>
             </div>
         </div>
     </div>
@@ -49,15 +58,15 @@
             <div class="col-lg-auto">
 
                 <p class="bs-component">
-                    <a href="https://www.deezer.com/profile/2884440744" target="_blank"><button type="button" class="btn btn-outline-primary">
+                    <a href="https://www.deezer.com/profile/2884440744"><button type="button" class="btn btn-outline-primary">
                         <i class="fab fa-deezer"></i>
                         Deezer</button></a>
 
-                    <a href="https://twitter.com/Sandai_dev" target="_blank"><button type="button" class="btn btn-outline-primary">
+                    <a href="https://twitter.com/Sandai_dev"><button type="button" class="btn btn-outline-primary">
                         <i class="fab fa-twitter"></i>
                         Sandai</button></a>
 
-                    <a href="https://twitter.com/FmSandai" target="_blank"><button type="button" class="btn btn-outline-primary">
+                    <a href="https://twitter.com/FmSandai"><button type="button" class="btn btn-outline-primary">
                         <i class="fab fa-twitter"></i>
                         Sandai.FM</button></a>
 
@@ -67,11 +76,11 @@
                         <i class="fas fa-donate"></i>
                         Donate</button></a>
 
-                    <a href="https://www.twitch.tv/sandaicast" target="_blank"><button type="button" class="btn btn-outline-primary">
+                    <a href="https://www.twitch.tv/sandaicast"><button type="button" class="btn btn-outline-primary">
                         <i class="fab fa-twitch"></i>
                         Twitch</button></a>
 
-                    <a href="https://github.com/Sandaidev" target="_blank"><button type="button" class="btn btn-outline-primary">
+                    <a href="https://github.com/Sandaidev"><button type="button" class="btn btn-outline-primary">
                         <i class="fab fa-github"></i>
                         Github</button></a>
                 </p>
@@ -156,6 +165,7 @@
                     <table class="table table-hover">
                         <thead>
                         <tr>
+                            <th>QR</th>
                             <th scope="col">Code</th>
                             <th scope="col">Coin name</th>
                             <th scope="col">Address</th>
@@ -164,48 +174,56 @@
                         <tbody>
 
                         <tr>
+                            <th><div><i class="fas fa-qrcode" id="a_btc"></i></div></th>
                             <th scope="row">BTC</th>
                             <th scope="row">Bitcoin</th>
                             <td>13UxM2qNn1ie4Zsg4sf14XHRDam1k57Naw</td>
                         </tr>
 
                         <tr>
+                            <th><i class="fas fa-qrcode" id="a_eth"></i></th>
                             <th scope="row">ETH</th>
                             <th scope="row">Ethereum</th>
                             <td>0x9bB640288895828A1F4506616fA0aE54713B51E7</td>
                         </tr>
 
                         <tr>
+                            <th><i class="fas fa-qrcode" id="a_xmr"></i></th>
                             <th scope="row">XMR</th>
                             <th scope="row">Monero</th>
                             <td>4AnpPh8zwnLe6Rfov9P34rJENQdvX3z2JRY4q5aEKRtEQ2ESwwbkAdeLAhAv9eqmEXQgU4YxXjnAYZ4kX5HDibND69R4uQK</td>
                         </tr>
 
                         <tr>
+                            <th><i class="fas fa-qrcode" id="a_dash"></i></th>
                             <th scope="row">DASH</th>
                             <th scope="row">Dash</th>
                             <td>XtqC6FLWjBpE8ctA7AnbqYkNVqBXYvVu4h</td>
                         </tr>
 
                         <tr>
+                            <th><i class="fas fa-qrcode" id="a_ltc"></i></th>
                             <th scope="row">LTC</th>
                             <th scope="row">Litecoin</th>
                             <td>LVGpzsapfFXTo6YUdok4xTssUtDNBMsdsM</td>
                         </tr>
 
                         <tr>
+                            <th><i class="fas fa-qrcode" id="a_zec"></i></th>
                             <th scope="row">ZEC</th>
                             <th scope="row">ZCash</th>
                             <td>t1UGp5TLnfUrwwt82M89DMfDjAgMQca1VBJ</td>
                         </tr>
 
                         <tr>
+                            <th><i class="fas fa-qrcode" id="a_usdc"></i></th>
                             <th scope="row">USDC</th>
                             <th scope="row">USDCoin</th>
                             <td>0x9bB640288895828A1F4506616fA0aE54713B51E7</td>
                         </tr>
 
                         <tr>
+                            <th><i class="fas fa-qrcode" id="a_xrp"></i></th>
                             <th scope="row">XRP</th>
                             <th scope="row">Ripple</th>
                             <td>rJcxc2wCArJFtRnCNVCqZhYpzYGJHAaH5e</td>
@@ -270,5 +288,52 @@
     </footer>
 </div>
 </div>
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+<script>
+    const tip_btc = tippy('#a_btc', {
+        content: "<img src='QRs/btc.png'>",
+        allowHTML: true,
+    });
+
+    const tip_eth = tippy('#a_eth', {
+        content: "<img src='QRs/eth.png'>",
+        allowHTML: true,
+    });
+
+    const tip_xmr = tippy('#a_xmr', {
+        content: "<img src='QRs/xmr.png'>",
+        allowHTML: true,
+    });
+
+    const tip_dash = tippy('#a_dash', {
+        content: "<img src='QRs/dash.png'>",
+        allowHTML: true,
+    });
+
+    const tip_ltc = tippy('#a_ltc', {
+        content: "<img src='QRs/ltc.png'>",
+        allowHTML: true,
+    });
+
+    const tip_zec = tippy('#a_zec', {
+        content: "<img src='QRs/zec.png'>",
+        allowHTML: true,
+    });
+
+    const tip_usdc = tippy('#a_usdc', {
+        content: "<img src='QRs/usdc.png'>",
+        allowHTML: true,
+    });
+
+    const tip_xrp = tippy('#a_xrp', {
+        content: "<img src='QRs/xrp.png'>",
+        allowHTML: true,
+    });
+
+</script>
+
 </body>
 </html>
