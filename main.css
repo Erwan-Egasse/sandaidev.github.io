@@ -1,0 +1,38 @@
+html body {
+    background-color: rgba(0,0,0,1.00);
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.accordion-header .accordion-button {
+    background-color: #AFEEEE !important;
+    color: black !important;
+}
+
+.accordion-header .collapsed {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.accordion-collapse .accordion-body {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.bg-light {
+    background-color: #AFEEEE !important;
+}
+
+@font-face {
+    font-family: 'stay_homeregular';
+    src: url('stayhome-webfont.woff2') format('woff2'),
+    url('stayhome-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.badge.bg-light.fs-2 {
+    font-family: 'stay_homeregular';
+}
