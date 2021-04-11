@@ -37,9 +37,7 @@
 <div class="container mt-4" id="block-home">
     <span class="badge bg-light fs-2 text-dark fw-normal mb-3">⸺ Home Sweet Home.</span>
     <h5 class="text-white fs-5">
-        My name is Erwan / Sandaidev, I'm 18 years old and currently studying IT in Besançon.
-        <br>
-        I aim for a BTEC diploma (English) / BTS SIO (French).
+        ‧ My name is Erwan / Sandaidev, I'm 18 years old and currently studying IT in France.
     </h5>
     <hr class="text-white my-3 mx-auto">
 </div>
@@ -243,10 +241,91 @@
 <div class="container mt-4" id="block-crypto">
     <span class="badge bg-light fs-2 text-dark fw-normal mb-3">⸺ Donate.</span>
     <h5 class="text-white fs-5">
-        If you feel like supporting what I do, please consider sending some satoshis.
+        ‧ If you feel like supporting what I do, please consider sending some satoshis.
     </h5>
+    <hr class="text-muted my-3 mx-auto">
 
+    <table class="table table-dark table-hover text-white border-info align-middle table-striped mt-3">
+        <tr>
+            <th>Ticker</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>QR code</th>
+        </tr>
 
+        <!-- BTC -->
+        <tr>
+            <th>BTC</th>
+            <td>Bitcoin</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BTC ‧ address" data-bs-content="bc1qf78zxdpmxckewvgt3wjexpv0duhfc2wpdevrua"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BTC ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_btc.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- ETH -->
+        <tr>
+            <th>ETH</th>
+            <td>Ethereum</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ address" data-bs-content="TBD"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ QR code" data-bs-html="true" data-bs-content="TBD"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- USDT -->
+        <tr>
+            <th>USDT</th>
+            <td>Tether USD</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="USDT ‧ address" data-bs-content="TBD"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="USDT ‧ QR code" data-bs-html="true" data-bs-content="TBD"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- XMR -->
+        <tr>
+            <th>XMR</th>
+            <td>Monero</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="XMR ‧ address" data-bs-content="TBD"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="XMR ‧ QR code" data-bs-html="true" data-bs-content="TBD"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- BAT -->
+        <tr>
+            <th>BAT</th>
+            <td>Basic Attention Token</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BAT ‧ address" data-bs-content="TBD"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BAT ‧ QR code" data-bs-html="true" data-bs-content="TBD"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- NANO -->
+        <tr>
+            <th>NANO</th>
+            <td>Nano</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="NANO ‧ address" data-bs-content="TBD"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="NANO ‧ QR code" data-bs-html="true" data-bs-content="TBD"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+    </table>
 
     <hr class="text-white my-3 mx-auto">
 </div>
@@ -254,7 +333,7 @@
 <!-- Block: Credits -->
 <div class="container">
     <h5 class="text-center fs-6 text-light-50 mb-3">
-        ⸺ Made by Erwan Egasse / Sandaidev / 2021 ⸺
+        ⸺ By Erwan ‧ Sandaidev ‧ 2021 ⸺
     </h5>
 </div>
 
@@ -264,6 +343,14 @@
 <!-- Link: Bootstrap JS bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+</script>
+
+<!-- Enable popovers -->
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
 </script>
 </body>
 </html>
