@@ -36,3 +36,7 @@ html body {
 .badge.bg-light.fs-2 {
     font-family: 'stay_homeregular';
 }
+
+.border-bottom-muted {
+    border-bottom: 1px dotted #212529!important;
+}
