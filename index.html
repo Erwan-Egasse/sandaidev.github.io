@@ -271,10 +271,10 @@
             <th>ETH</th>
             <td>Ethereum</td>
             <td>
-                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ address" data-bs-content="TBD"><i class="bi bi-pencil-square"></i> Reveal address</button>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ address" data-bs-content="0x7ac496378f135ca8187E5a24639d47852698bCFe"><i class="bi bi-pencil-square"></i> Reveal address</button>
             </td>
             <td>
-                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ QR code" data-bs-html="true" data-bs-content="TBD"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_eth.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
             </td>
         </tr>
 
@@ -350,7 +350,15 @@
 <script>
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
+        return new bootstrap.Popover(popoverTriggerEl, {
+            placement: 'top',
+            template: '' +
+                '<div class="popover" role="tooltip">' +
+                    '<div class="popover-arrow"></div>' +
+                    '<h3 class="popover-header"></h3>' +
+                    '<div class="popover-body"></div>' +
+                '</div>'
+        })
     })
 </script>
 </body>
