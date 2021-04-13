@@ -25,6 +25,22 @@ html body {
     background-color: #AFEEEE !important;
 }
 
+.btn-info {
+    background-color: #AFEEEE !important;
+    border-color: #AFEEEE !important;
+    color: #212529 !important;
+}
+
+.btn-outline-info:hover {
+    background-color: #AFEEEE !important;
+    color: #212529 !important;
+}
+
+.btn-outline-info {
+    border-color: #AFEEEE !important;
+    color: #AFEEEE !important;
+}
+
 @font-face {
     font-family: 'stay_homeregular';
     src: url('stayhome-webfont.woff2') format('woff2'),
