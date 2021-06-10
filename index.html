@@ -1,14 +1,361 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Under a rewrite</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link: Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- Link: Custom CSS -->
+    <link href="main.css" rel="stylesheet">
+    <title>Home.</title>
 </head>
-<body class="bg-black text-gray-200 h-screen flex items-center">
-    <div class="mx-auto">
-        <h1 class="font-bold text-4xl mb-1">The website is under a re-write.</h1>
-        <p class="border-t-4 border-green-400 text-gray-400 w-max pt-1">Please check back later.</p>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Erwan E.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="#block-home">Home</a>
+                <a class="nav-link" href="#block-projects">Projects</a>
+                <a class="nav-link" href="#block-skills">Skills</a>
+            </div>
+        </div>
     </div>
+</nav>
+
+<!-- Block: Home -->
+<div class="container mt-4" id="block-home">
+    <span class="badge bg-light fs-2 text-dark fw-normal mb-3">⸺ Home Sweet Home.</span>
+    <h5 class="text-white fs-5">
+        ‧ My name is Erwan, I'm 18 years old and currently studying programming.
+    </h5>
+    <hr class="text-white my-3 mx-auto">
+</div>
+
+<!-- Block: Projects -->
+<div class="container mt-4" id="block-projects">
+    <span class="badge bg-light fs-2 text-dark fw-normal mb-3">⸺ Projects.</span>
+    <div class="card-group">
+
+        <!-- Card: Autonomous garden -->
+        <div class="card bg-dark text-white text-center">
+            <h5 class="card-header p-2"><i class="fas fa-leaf"></i> ┈ Autonomous Garden</h5>
+            <div class="card-body p-0">
+                <p class="card-text p-3">
+                    A project I made for my final year of High-School. It lets you monitor your plant's soil moisture and waters them whenever needed.
+                    <br>
+                    It uses an Arduino as the client and a Raspberry Pi as the server.
+                    <br>
+
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <span class="badge bg-black">Python</span>
+                <span class="badge bg-black">PHP</span>
+                <span class="badge bg-black">C++</span>
+                <span class="badge bg-black">HTML / CSS</span>
+            </div>
+
+            <div class="card-footer">
+                <a class="btn btn-outline-info" href="https://github.com/Sandaidev/Projet-Site" role="button">Source code <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted"><i class="bi bi-cpu"></i> Hardware + <i class="bi bi-code-slash"></i> Software</small>
+            </div>
+        </div>
+
+        <!-- Card: Coffee roaster -->
+        <div class="card bg-dark text-white text-center">
+            <h5 class="card-header p-2"><i class="fas fa-mug-hot"></i> ┈ Coffee Roaster</h5>
+            <div class="card-body p-0">
+                <p class="card-text p-3">
+                    A front-office and back-office management solution for a coffee roaster.
+                    Products and categories can be added, viewed and added to a shopping cart using a web interface.
+
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <span class="badge bg-black">PHP</span>
+                <span class="badge bg-black">HTML / CSS</span>
+                <span class="badge bg-black">MySQL</span>
+            </div>
+
+            <div class="card-footer">
+                <a class="btn btn-outline-info" href="https://github.com/Sandaidev/Projet-SLAM" role="button">Source code <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted"><i class="bi bi-code-slash"></i> Software</small>
+            </div>
+        </div>
+
+        <!-- Card: Passgen -->
+        <div class="card bg-dark text-white text-center">
+            <h5 class="card-header p-2"><i class="fas fa-key"></i> ┈ Passgen</h5>
+            <div class="card-body p-0">
+                <p class="card-text p-3">
+                    A secure and interactive password generator that can be used to generate wordlists for pentesting purposes.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <span class="badge bg-black">Python</span>
+            </div>
+
+            <div class="card-footer">
+                <a class="btn btn-outline-info" href="https://github.com/Sandaidev/Passgen" role="button">Source code <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted"><i class="bi bi-code-slash"></i> Software</small>
+            </div>
+        </div>
+
+        <!-- Card: ChillerTech -->
+        <div class="card bg-dark text-white text-center">
+            <h5 class="card-header p-2"><i class="fas fa-caret-square-right"></i> ┈ NextCode</h5>
+            <div class="card-body p-0">
+                <p class="card-text p-3">
+                    My tech-related blog. I write How-To(s), personal logs and development logs about various open-source projects there.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <span class="badge bg-black">HTML</span>
+                <span class="badge bg-black">CSS</span>
+                <span class="badge bg-black">Linux</span>
+            </div>
+
+            <div class="card-footer">
+                <a class="btn btn-outline-info" href="https://sandaidev.github.io/nextcode/" role="button">Go to <i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted"><i class="bi bi-code-slash"></i> Software</small>
+            </div>
+        </div>
+
+    </div>
+    <hr class="text-white my-3">
+</div>
+
+<!-- Block: Skills + Centers of Interest -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12 col-sm-6 mt-3" id="block-skills">
+            <!-- Block: Skills -->
+            <span class="badge bg-light fs-2 text-dark fw-normal mb-3">⸺ Skills.</span>
+            <div class="accordion" id="accordion-skills">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>I am proficient in...</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion-skills">
+                        <div class="accordion-body text-white">
+                            <span class="badge bg-black">English</span>
+                            <span class="badge bg-black">French</span>
+                            <span class="badge bg-black">Linux System Administration</span>
+                            <span class="badge bg-black">C++</span>
+                            <span class="badge bg-black">PHP</span>
+                            <span class="badge bg-black">Python</span>
+                            <span class="badge bg-black">HTML / CSS</span>
+                            <span class="badge bg-black">Bootstrap</span>
+                            <span class="badge bg-black">Javascript</span>
+                            <span class="badge bg-black">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>I am currently learning...</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion-skills">
+                        <div class="accordion-body">
+                            <span class="badge bg-black">NodeJS</span>
+                            <span class="badge bg-black">Symfony</span>
+                            <span class="badge bg-black">Windows System Administration</span>
+                            <span class="badge bg-black">3D Modeling</span>
+                            <span class="badge bg-black">ElasticSearch</span>
+                            <span class="badge bg-black">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>I am planning to learn...</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion-skills">
+                        <div class="accordion-body">
+                            <span class="badge bg-black">C</span>
+                            <span class="badge bg-black">NASM Assembly</span>
+                            <span class="badge bg-black">Video Production</span>
+                            <span class="badge bg-black">Audio Production</span>
+                            <span class="badge bg-black">Spanish</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 text-end">
+            <span class="badge bg-light fs-2 text-dark fw-normal mb-3 mt-3">What I like. ⸺</span>
+                <table class="text-white fs-5 text-end col-12">
+                    <tr>
+                        <td>Open Source ‧</td>
+                    </tr>
+                    <tr>
+                        <td>Volunteering ‧</td>
+                    </tr>
+                    <tr>
+                        <td>Team Work ‧</td>
+                    </tr>
+                    <tr>
+                        <td>Jazz and House music ‧</td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+    <hr class="text-white my-3">
+</div>
+
+<!-- Block: Crypto -->
+<div class="container mt-4" id="block-crypto">
+    <span class="badge bg-light fs-2 text-dark fw-normal mb-3">⸺ Donate.</span>
+    <h5 class="text-white fs-5">
+        ‧ If you feel like supporting what I do, please consider sending some satoshis. <br>
+        Donations are never asked for but always appreciated.
+    </h5>
+    <hr class="text-muted my-3 mx-auto">
+
+    <table class="table text-white m-0 table-borderless">
+        <tr class="border-bottom">
+            <th>Ticker ‧</th>
+            <th>Name ‧</th>
+            <th>Address ‧</th>
+            <th>QR code ‧</th>
+        </tr>
+
+        <!-- BTC -->
+        <tr class="border-bottom-muted">
+            <th>BTC</th>
+            <td>Bitcoin</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BTC ‧ address" data-bs-content="bc1qf78zxdpmxckewvgt3wjexpv0duhfc2wpdevrua"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BTC ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_btc.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- ETH -->
+        <tr class="border-bottom-muted">
+            <th>ETH</th>
+            <td>Ethereum</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ address" data-bs-content="0x7ac496378f135ca8187E5a24639d47852698bCFe"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="ETH ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_eth.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- USDT -->
+        <tr class="border-bottom-muted">
+            <th>USDT</th>
+            <td>Tether USD</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="USDT ‧ address" data-bs-content="0x7ac496378f135ca8187E5a24639d47852698bCFe"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="USDT ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_usdt.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- XMR -->
+        <tr class="border-bottom-muted">
+            <th>XMR</th>
+            <td>Monero</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="XMR ‧ address" data-bs-content="436ZBCBaoVVMC77XerWBRy3ohd88Tghov3UEwXNs3gTBJfS8RkaHNTHXTsKufkuADb8TNVYxxnUDf7LQfpjp5jg6NPtQhHY"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="XMR ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_xmr.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- BAT -->
+        <tr class="border-bottom-muted">
+            <th>BAT</th>
+            <td>Basic Attention Token</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BAT ‧ address" data-bs-content="0x7ac496378f135ca8187E5a24639d47852698bCFe"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="BAT ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_bat.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+        <!-- NANO -->
+        <tr>
+            <th>NANO</th>
+            <td>Nano</td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="NANO ‧ address" data-bs-content="nano_3sq55ociuu7iady33fdemiuaty9gg7npj5odq55hx37jse9j4mrfiahkeuan"><i class="bi bi-pencil-square"></i> Reveal address</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-info w-100" data-bs-toggle="popover" title="NANO ‧ QR code" data-bs-html="true" data-bs-content="<img class='d-block mx-auto' src='./assets/qr/coin_nano.png'>"><i class="bi bi-upc-scan"></i> Reveal QR code</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <hr class="text-white my-3 mx-auto">
+</div>
+
+<!-- Block: Credits -->
+<div class="container">
+    <h5 class="text-center fs-6 text-light-50 mb-3">
+        ⸺ By Erwan E, with <3 ‧ 2021 ⸺
+    </h5>
+</div>
+
+<!-- Link: Bootstrap JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+</script>
+
+<!-- Enable popovers -->
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl, {
+            placement: 'top',
+            template: '' +
+                '<div class="popover bg-dark border border-light shadow" role="tooltip">' +
+                    '<h3 class="popover-header bg-dark text-white border-bottom border-secondary"></h3>' +
+                    '<div class="popover-body text-white fw-bold"></div>' +
+                '</div>'
+        })
+    })
+</script>
 </body>
 </html>
